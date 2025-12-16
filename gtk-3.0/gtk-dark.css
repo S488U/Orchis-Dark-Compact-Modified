@@ -6873,7 +6873,7 @@ MatePanelAppletFrameDBus {
 
 PanelApplet.wnck-applet .wnck-pager {
   background-color: transparent;
-  color: #3281EA;
+  /* color: #3281EA; */
 }
 
 PanelApplet.wnck-applet .wnck-pager:hover {
@@ -6885,7 +6885,7 @@ PanelApplet.wnck-applet .wnck-pager:active {
 }
 
 PanelApplet.wnck-applet .wnck-pager:selected {
-  background-color: #3281EA;
+  background-color: gray;
 }
 
 .mate-panel-menu-bar.horizontal #clock-applet-button label {
@@ -8193,6 +8193,11 @@ button.centerbutton:last-child {
   padding: 4px;
 }
 
+wnck-pager {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: none;
+}
+
 wnck-pager:hover {
   background-color: alpha(currentColor, 0.08);
 }
@@ -8202,7 +8207,8 @@ wnck-pager:active {
 }
 
 wnck-pager:selected {
-  background-color: #3281EA;
+  background-color: gray;
+  color: white;
 }
 
 XfdesktopIconView.view {
@@ -8420,7 +8426,7 @@ dialog.xfsm-logout-dialog {
 #XfceNotifyWindow {
   box-shadow: none;
   border: none;
-  border-radius: 16px;
+  border-radius: 5px;
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(0, 0, 0, 0.75);
   padding: 4px;
