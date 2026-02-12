@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="34" height="36"><path d="M38 618.362h34v36H38z" style="fill:none" transform="translate(-38 -618.362)"/><path d="M51 633.362v8h8v-8zm2 2h4v4h-4z" style="opacity:.75;fill:#fff" transform="translate(-38 -618.362)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="36">
+  <!-- Transparent Hit Area -->
+  <path d="M38 618.362h34v36H38z" style="fill:none" transform="translate(-38 -618.362)"/>
+  
+  <!-- Icon: Two Overlapping Squares (Restore) -->
+  <path d="M52 632.362h8v8h-2v-6h-6z M50 634.362v8h8v-8zm2 2h4v4h-4z" style="opacity:.75;fill:#fff" transform="translate(-38 -618.362)"/>
+</svg>
